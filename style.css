@@ -1,0 +1,342 @@
+/*  Theme Name: bear
+    Tags: bear, colorful, two columns, 2 columns
+    Description: A colorful Wordpress theme for kindergarten.
+    Created on : 2010-05-07, 11:04:17
+    Author: Jagoda
+*/
+html, body {
+  background-color: #7EBBE4;
+  color: #000;
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+a{
+  text-decoration: none;
+}
+h2{
+   color: #085624;
+   text-align:center;
+   margin-top:-5px;
+}
+hr{
+   color: #32660F;
+   border-style: solid;
+}
+#top {  width: 700px;
+  margin: 10px auto;
+        background: url(images/tlo.jpg) repeat-y top left;
+  padding: 0;
+}
+#header {
+  background: url(images/nag.jpg) no-repeat top left;
+  width: 610px;
+  height: 99px;
+  padding-top: 70px;
+        padding-left: 90px;
+  margin: 0 ;
+}
+#logo{
+     background: url(images/logo.jpg) no-repeat top left;
+     height: 80px;
+     width: 200px;
+}
+#menu{
+       background: url(images/nav.jpg)  top;
+       width: 658px;
+       margin-left: 21px;
+       float: left;
+
+}
+#menu ul {
+        float: left;
+        width: 621px;
+        font-size: 15px;
+        font-weight: bold;
+        position:relative;
+        padding-left:20px;
+        margin:0;
+        z-index:1;
+}
+#menu ul li {
+        float: left;
+        position:relative;
+        top:0;
+        list-style:  none;
+}
+
+#menu ul>li ul>li {
+        position: relative;
+        z-index:5;
+}
+#menu ul>li a {
+        position: relative;
+        z-index:3;
+}
+#menu ul>li ul>li a {
+        position: relative;
+        z-index:6;
+}
+#menu li a,
+#menu li a:visited {
+       text-decoration: none;
+       display: block;
+       color: #fff;
+       line-height: 44px;
+       position: relative;
+       padding: 0 7px;
+
+}
+#menu li a:hover, #menu ul li a:active{
+        background: url(images/nav_hover.jpg) repeat-x;
+        line-height: 44px;
+}
+#menu ul ul {
+        position: absolute;
+        z-index: 4;
+        top: 44px;
+        display:none;
+        background-color:#86db42;
+        border:1px solid #2A9E0A;
+        border-top-width: 0;
+        margin:0;
+        width:auto;
+        left:0px;
+        padding-left: 0;
+        font-size:13px;
+}
+#menu li li {
+  float:none;
+  width:auto;
+  height:auto;
+}
+#menu li li a,
+#menu li li a:visited {
+  height:auto;
+  line-height:20px;
+  padding:2px 8px;
+  position:relative;
+  color:#fff;
+  width:auto;
+
+}
+#menu li li a:hover {
+        background:#5db219;
+        padding:2px 8px;
+        color:#fff;
+        line-height:20px;
+        height:auto;
+
+}
+#menu li:hover ul,
+#menu li.jHover ul {
+     display:block;
+}
+#menu ul ul ul,
+#menu li:hover ul ul,
+#menu li.jHover ul ul {
+     display:none;
+     top:3px;
+     left:5px;
+}
+
+#bear{
+       width: 657px;
+       height: auto;
+       float: left;
+       margin-left: 22px;
+       padding-bottom: 110px;
+}
+.bear1{
+    background: url(images/mis1.jpg) no-repeat bottom;
+}
+.bear2{
+    background: url(images/mis2.jpg) no-repeat bottom;
+}
+.bear3{
+    background: url(images/mis3.jpg) no-repeat bottom;
+}
+.bear4{
+    background: url(images/mis4.jpg) no-repeat bottom;
+}
+#posts {
+  float: right;
+  width: 425px;
+  text-align:justify;
+  padding: 25px 25px 18px 15px;
+}
+#posts_g{
+    background: url(images/tresc_g.jpg) no-repeat;
+    height: 19px;
+}
+#content{
+    background: url(images/tresc_tlo.jpg) repeat-y;
+    height: auto;
+    min-height: 462px;
+    width: 405px;
+    top:0;
+    bottom:0;
+    padding: 1px 10px;
+    text-align: justify;
+}
+#posts_d{
+    background: url(images/tresc_d.jpg) no-repeat;
+    height: 19px;
+}
+.h3_post{
+    background: url(images/li.jpg) no-repeat center left;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.h3_post a{
+    text-decoration: none;
+    color: #085624;
+}
+.h3_post a:hover{
+    color: #6bbe26;
+}
+.alignright{
+    text-align: right;
+}
+
+#sidebar {
+  float: left;
+  width: 190px;
+  left:0px;
+
+}
+#sidebar ul {
+    list-style: none;
+    padding-left:15px;
+    margin-top:1px;
+}
+#sidebar ul li{
+    width: 160px;
+    line-height:20px;
+    z-index:1;
+    margin: 1px 0;
+    display: block;
+    height: 20px;
+
+}
+#sidebar li a,
+#sidebar li a:visited {
+  text-decoration: none;
+        display: block;
+  color: #000;
+        padding-left:5px;
+}
+#sidebar ul ul {
+        position: relative;
+        left: 161px;
+        z-index:1;
+        display:none;
+        border-left-width: 0;
+        top: -21px;
+        width:190px;
+        padding-left: 0;
+}
+#sidebar li li {
+  width:auto;
+  height:auto;
+}
+#sidebar li li a,
+#sidebar li li a:visited {
+  height:auto;
+  line-height:20px;
+  padding-left:5px;
+  width:185px;
+  position:relative;
+  color:#fff;
+}
+#sidebar li li a:hover {
+  padding-left:5px;
+  line-height:20px;
+        height:auto;
+        width:185px;
+}
+#sidebar li:hover ul,
+#sidebar li.jHover ul {
+  display:block;
+}
+#sidebar ul ul ul,
+#sidebar li:hover ul ul,
+#sidebar li.jHover ul ul {
+  display:none;
+  top:3px;
+  left:5px;
+}
+#sidebar li li:hover ul,
+#sidebar li li.jHover ul {
+  display:block;
+}
+.category_header{
+    background: url(images/category.jpg) no-repeat bottom;
+    height: 23px;
+    padding-top:20px;
+    text-align: center;
+    font-size: 17px;
+    color:white;
+    margin-bottom: 0;
+    margin-top:10px;
+}
+.category li{
+    background: #f8847f;
+}
+.category li a:hover, .category ul li a:active{
+    background: #cd2a1b;
+}
+.category li li{
+    background: #cd2a1b;
+}
+.category li li a:hover{
+    background: #f8847f;
+}
+.archive_header{
+    background: url(images/archive.jpg) no-repeat bottom;
+    height: 23px;
+    padding-top:20px;
+    text-align: center;
+    font-size: 17px;
+    color:white;
+    margin-bottom: 0;
+    margin-top:5px;
+}
+.archive li{
+    background: #f9f495;
+}
+.archive li a:hover, .archive ul li a:active{
+    background: #ece705;
+}
+.meta_header{
+    background: url(images/meta.jpg) no-repeat bottom;
+    height: 23px;
+    padding-top:20px;
+    text-align: center;
+    font-size: 17px;
+    color:white;
+    margin-bottom: 0;
+    margin-top:5px;
+}
+.meta li{
+    background: #7EBBE4;
+}
+.meta li a:hover, .meta ul li a:active{
+    background: #127ec6;
+}
+#search{
+    padding:10px 15px;
+}
+#empty{
+    height: 130px;
+}
+#footer {
+    background: url(images/stopka.jpg) no-repeat top left;
+    margin: 0px;
+    padding: 15px 40px;
+    width: 620px;
+    height: 49px;
+    clear: both;
+}
